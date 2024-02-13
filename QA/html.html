@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q/A Website</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Barra di ricerca -->
+        <input type="text" id="searchBar" onkeyup="searchQuestions()" placeholder="Cerca domande...">
+    </div>
+    <div class="questions-container">
+        <!-- Le domande verranno inserite qui dinamicamente -->
+    </div>
+    <div class="new-question-container">
+        <!-- Box di testo per inserire una nuova domanda -->
+        <input type="text" id="newQuestion" placeholder="Inserisci una nuova domanda...">
+        <button onclick="addNewQuestion()">Invia</button>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>

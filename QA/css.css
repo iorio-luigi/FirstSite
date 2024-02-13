@@ -1,0 +1,28 @@
+/* Aggiungiamo stili per la freccia */
+.question-title i {
+    margin-left: 5px;
+}
+
+/* Stili per nascondere le risposte e per far ruotare la freccia quando la domanda è aperta */
+.question .answers {
+    display: none;
+}
+
+.question.open .answers {
+    display: block;
+}
+
+.question.open .question-title i {
+    transform: rotate(180deg);
+}
+
+#searchBar {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}

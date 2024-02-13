@@ -1,0 +1,22 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "text": "Qual è il miglior linguaggio di programmazione?",
+        "answers": [
+          {"id": 1, "text": "Python è il miglior linguaggio."},
+          {"id": 2, "text": "Java è il miglior linguaggio."},
+          {"id": 3, "text": "C++ è il miglior linguaggio."}
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Come posso imparare a programmare?",
+        "answers": [
+          {"id": 1, "text": "Puoi iniziare con tutorial online."},
+          {"id": 2, "text": "Puoi seguire corsi universitari."},
+          {"id": 3, "text": "Puoi leggere libri di programmazione."}
+        ]
+      }
+    ]
+}
